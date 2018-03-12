@@ -1,0 +1,39 @@
+body {
+    background: url('./Static/img/1.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.notesHeader {
+    height: 40px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    font-size: 1.5em;
+    text-shadow: 3px 3px 10px #000;
+    text-align: center;
+    color: #a3cbc6;
+}
+
+.heading {
+    padding-top: 5px;
+}
+
+.notesBody {
+    text-overflow: ellipsis;
+    margin: 10px 0 0 0 ;
+
+}
+
+.notesFooter {
+    height: 40px;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.66);
+}
+
+.hiddenLi {
+    height: 50px;
+    visibility: hidden;
+}

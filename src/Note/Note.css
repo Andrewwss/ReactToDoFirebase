@@ -1,0 +1,61 @@
+.note {
+    background-color: #393939;
+    color: #a3cbc6;
+    width: 80%;
+    margin: auto;
+    padding: 0;
+    border-radius: 2px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.78);
+
+}
+
+
+.noteContent {
+    width: calc(100% - 70px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 1.3em;
+    margin-left: 10px;
+    margin-top: 12px;
+    white-space: nowrap;
+}
+
+.fade-in {
+
+    text-overflow: clip;
+    height: 50px;
+    list-style: none;
+    margin-top: 5px;
+    position: relative;
+    transition: 0.4s;
+    /*box-shadow: inset -190px 0px 190px -50px #add7f8;*/
+
+}
+
+.fade-in:hover {
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+.closebtn {
+    background-color: rgba(191, 0, 0, 0.42);
+    color: #a3cbc6;
+    text-shadow: 3px 3px 5px #000;
+    width: 60px;
+    height: 100%;
+    border-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: 0.4s;
+}
+
+.closebtn:hover {
+    background-color: #e20003;;
+}
+
+.timestamp {
+    font-size: 0.4em;
+}
