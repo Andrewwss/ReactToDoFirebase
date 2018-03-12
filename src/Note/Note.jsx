@@ -15,7 +15,7 @@ class Note extends Component {
         this.props.removeNote(id);
     }
 
-    render(props) {
+    render() {
         return (
             <li className="note fade-in">
                 <div className="noteContent">
@@ -32,7 +32,8 @@ class Note extends Component {
 }
 
 Note.propTypes = {
-    noteContent: PropTypes.string
-}
+    noteContent: PropTypes.string,
+    // noteTime: PropTypes.string
+};
 
 export default Note;
